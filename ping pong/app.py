@@ -5,6 +5,8 @@
 #variable
 age = "34"
 num =23
+number=-43
+
 #Boolen
 is_male=True
 
@@ -30,6 +32,7 @@ print(age.index("4"))
 age.replace("34","323")
 print(age)
 
+
 #mathmatical operations 
 
 #division
@@ -42,3 +45,12 @@ print(12%2)
 #print number as a string and string 
 print(num) 
 print(str(num)+" is the code")
+
+#absolute
+print(abs(number))
+
+#power
+print(pow(2,3))
+
+#max,min
+print(max(3,4)) 
