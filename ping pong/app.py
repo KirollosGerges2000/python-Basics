@@ -54,3 +54,23 @@ print(pow(2,3))
 
 #max,min
 print(max(3,4)) 
+
+#round convert decimal number to real
+print(round(34.4))
+
+
+#math library 
+from math import *
+
+#for floor return it by less = 5
+print(floor(5.4))
+
+#for ceil return it by more = 6
+print(ceil(5.4))
+
+#Base class for warnings about encodings
+EncodingWarning
+
+
+#square root 
+print(sqrt(4))
