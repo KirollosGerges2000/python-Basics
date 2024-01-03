@@ -74,3 +74,9 @@ EncodingWarning
 
 #square root 
 print(sqrt(4))
+
+#inputs
+name=input("Enter your name: ")
+print("Hello "+name)
+
+
