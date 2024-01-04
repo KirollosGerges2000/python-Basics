@@ -145,6 +145,18 @@ codezilla.pop()
 print(codezilla)
  
  #index for searching its position 
-codezilla.index("programming")
-print(codezilla)
+SEARCHING=codezilla.index("programming")
+print(SEARCHING)
+
  #count for counting variables 
+COUNTING=codezilla.count("programming")
+print(COUNTING)
+
+ #SORT for sort variables alphaphatic"no parameters"
+sort=codezilla.count()
+print(sort)
+
+ #copy for copying variables "no parameters"
+copy=codezilla.copy()
+print(copy)
+
