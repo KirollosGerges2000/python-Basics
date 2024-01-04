@@ -93,3 +93,4 @@ adjective=input("Enter an adjectiv:")
 print("Trees are "+color)
 print(plural_noun+" are mean")
 print ("please keep it "+adjective)
+
