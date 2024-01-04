@@ -96,6 +96,7 @@ print ("please keep it "+adjective)
 
 #Lists
 friends=[1,"Kirollos",True,False,[1,"2y 7aga"]]
+codezilla =["programming","python"]
 
 # print True
 print(friends[2])
@@ -104,7 +105,7 @@ print(friends[2])
 print(friends[-1])
 
 #print IndexError: list index out of range
-print(friends[-6])
+print(friends[-5])
 
 #print ["Kirollos",True]
 print(friends[1:3])
@@ -116,3 +117,34 @@ print(friends[1:])
 friends[3]="change false"
 print(friends[3])
 
+#extend friends and codezilla together
+friends.extend(codezilla)
+#print friends with codezilla
+print(friends)
+
+#append its role to add iteam at the last position of list
+codezilla.append("Bobos")
+#print "programming","python","Bobos" 
+print(codezilla)
+
+#insert its role insert(position on the list ,"the data that you want to insert")
+codezilla.insert(1,"power")
+#print ['programming', 'power', 'python', 'Bobos']
+print(codezilla)
+
+#remove its role remove any data that exist in list 
+codezilla.remove("power")
+#print ['programming',  'python', 'Bobos']
+print(codezilla)
+
+#clear it role: remove any thing in the list "No parameters"
+codezilla.remove()
+
+#piop its role : pop the index in list  "No parameters"
+codezilla.pop()
+print(codezilla)
+ 
+ #index for searching its position 
+codezilla.index("programming")
+print(codezilla)
+ #count for counting variables 
