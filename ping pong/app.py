@@ -94,3 +94,25 @@ print("Trees are "+color)
 print(plural_noun+" are mean")
 print ("please keep it "+adjective)
 
+#Lists
+friends=[1,"Kirollos",True,False,[1,"2y 7aga"]]
+
+# print True
+print(friends[2])
+
+#print [1,"2y 7aga"]
+print(friends[-1])
+
+#print IndexError: list index out of range
+print(friends[-6])
+
+#print ["Kirollos",True]
+print(friends[1:3])
+
+#print ["Kirollos",True,False,[1,"2y 7aga"]]
+print(friends[1:])
+
+#print "change false" instead of "false"
+friends[3]="change false"
+print(friends[3])
+
