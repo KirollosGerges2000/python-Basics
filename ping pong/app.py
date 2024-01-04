@@ -79,4 +79,17 @@ print(sqrt(4))
 name=input("Enter your name: ")
 print("Hello "+name)
 
+#adding 2 num
+num1 = input("Enter firist no:")
+num2= input("Enter second number:")
+result=float(num1)+int(num2)
+print(result)
 
+#Building MadLibs
+color=input("Enter a color")
+plural_noun=input("Enter a plural noun:")
+adjective=input("Enter an adjectiv:")
+
+print("Trees are "+color)
+print(plural_noun+" are mean")
+print ("please keep it "+adjective)
