@@ -138,9 +138,9 @@ codezilla.remove("power")
 print(codezilla)
 
 #clear it role: remove any thing in the list "No parameters"
-codezilla.remove()
+#codezilla.remove()
 
-#piop its role : pop the index in list  "No parameters"
+#pop its role : pop the index in list  "No parameters"
 codezilla.pop()
 print(codezilla)
  
@@ -160,3 +160,45 @@ print(sort)
 copy=codezilla.copy()
 print(copy)
 
+#list of tuples
+list_of_tuples = [(2,3),(5,6),(2,6)]
+print(list_of_tuples[0][1])
+
+#functions with parameters and no return 
+def say_hi(name,age):
+    print("hello " +name+ "Your age is " +str(age)) 
+
+#declare the Function 
+say_hi("Kirollos",23)   
+
+#functions with parameters and return 
+def cube(length_of_edge):
+    return length_of_edge^3
+
+print(cube(3))
+  
+#if conditions with else if and else
+is_hungry = False
+wants_to_eat = False
+
+if is_hungry and wants_to_eat:
+    print("go eat you are hungry or you just want to eat")
+
+elif is_hungry and not wants_to_eat:
+    print("eat so you can survive")
+
+elif not is_hungry and wants_to_eat:
+    print("do not eat you are not hungry")
+
+else:
+    print ("don't eat")
+
+#if condition in function has parameters and no return
+def matching_strings(str_1,str_2):
+    if str_1 == str_2:
+        print("the 2 strings is matching")
+    elif str_1 != str_2:
+        print("the 2 strings aren't matching")
+    
+
+matching_strings("Kirollos","careless")
