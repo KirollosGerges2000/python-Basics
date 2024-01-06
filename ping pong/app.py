@@ -202,3 +202,44 @@ def matching_strings(str_1,str_2):
     
 
 matching_strings("Kirollos","careless")
+
+#dictionaries
+convert_month = {
+"jan":"january",
+"feb":"febraury",
+"mar":"march"
+}
+
+#print march
+print(convert_month["mar"])
+#print march
+print(convert_month.get("mar"))
+
+#print None
+print(convert_month.get("Kirollos"))
+
+#print  2y 7aga 
+print(convert_month.get("Kirollos","2y 7aga"))
+
+#dictionaries
+convert_month = {
+"jan":"january",
+"jan":"febraury",
+"jan":"march"
+}
+
+#print march
+print(convert_month["jan"])
+
+
+#while loop
+i = 1
+
+while i<=10:
+    print(i)
+    i+=1
+    if i==6:
+        #jump to while loop again so thout 2,3,4,5,7,8,9,10
+        continue
+else:
+    print("the condition isn't true")
