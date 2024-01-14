@@ -243,3 +243,25 @@ while i<=10:
         continue
 else:
     print("the condition isn't true")
+
+    #for loops
+    names=["kirollos","Bishoy"]
+    for letter in "code":
+        #print c
+        #o
+        #d
+        #e
+        print(letter)
+    for name in names:
+        #print kirollos
+        #      Bishoy
+        print(name)
+
+    for x in range(len(names)):
+        #print 0
+        #       1
+        print(x)
+        #print "kirollos","Bishoy"
+        print(name(x))
+
+#Exponent function
