@@ -265,3 +265,91 @@ else:
         print(name(x))
 
 #Exponent function
+#print 8
+print(2**3)
+def power(base_num,pow_num):
+    result = 1
+    for index in range(pow_num):
+        result = result * base_num
+    return result
+#print 8
+print(power(2,3))
+
+#Nested Loops [2D List]
+no_list = [
+ [1,2,3],
+ [4,5,6],
+ [7,8,9],    
+[0]
+]
+
+#Print [1,2,3],[4,5,6],[7,8,9],[0]
+print(no_list)
+#print first row [1,2,3]
+print(no_list[1])
+#print 8 
+print(no_list[2][1])
+
+for x in no_list:
+    #print  [1,2,3],
+ #          [4,5,6],
+ #          [7,8,9],    
+#           [0]
+    print(x)
+
+for ROW in no_list:
+    for column in ROW:
+          '''
+          #comments
+          print 1
+                 2
+                 3
+              4
+                5
+                6
+              7
+               8
+                 9    
+              0
+'''
+    print(column)
+
+#prevent user from Run time error
+    # by using try, except 
+try:
+    result=32/0
+    value=int(input("Enter value:"))
+    print(value)
+except ZeroDivisionError as error:
+    print(error)
+except ValueError as value_error:
+    print(value_error)
+print("success")
+
+#Reading Files 
+#open this file in read mode 
+FILE=open("FILE.txt","r")
+#open this file in write mode 
+open("FILE.txt","w")
+#open this file in append mode to 
+#insert data but not delete data
+open("FILE.txt","a")
+#open this file in read,write mode 
+open("FILE.txt","r+")
+#print true in read while false in write 
+print(FILE.readable())
+#print Kirollos Gerges >>>>>>> Embedded C enginnering 
+print(FILE.read())
+#print Kirollos Gerges >>>>>>>
+print(FILE.readline())
+#print Embedded C enginnering 
+print(FILE.readline())
+#print "Kirollos Gerges >>>>>>>\n" 
+#"Embedded C enginnering\n" 
+print(FILE.readlines())
+#print Embedded C enginnering 
+print(FILE.readlines()[1])
+FILE.close()
+
+#writing files tutorial 29
+ 
