@@ -351,5 +351,31 @@ print(FILE.readlines())
 print(FILE.readlines()[1])
 FILE.close()
 
-#writing files tutorial 29
- 
+#writing files 
+ #open this file in append mode 
+files=open("FILE.txt","a")
+#file will be
+#Kirollos Gerges >>>>>>>
+ #Embedded C enginnering 
+#Good Enginner
+files.write("\nGood Enginner")
+list_of_phrases=["\n firist","\nsecond"]
+#will write this lines
+files.writelines(list_of_phrases);
+files.close()
+
+#Libraries
+#using for bytes and integers
+import random
+#roll_dice will print number 
+#from 0 to 9 randomly
+print(random.roll_dice(9))
+#for more modules visit
+#https://docs.python.org/3/py-modindex.html
+#Encodindg library by asciis
+import base64
+base64.a85decode
+#for install python.docx visit
+#https://python-docx.readthedocs.io/en/latest/
+
+#python classes and objects
