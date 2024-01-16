@@ -379,3 +379,23 @@ base64.a85decode
 #https://python-docx.readthedocs.io/en/latest/
 
 #python classes and objects
+from Employee import Employee
+from Employee import student
+
+employee1=Employee("Kirollos",24,"self learning",False)
+employee2=Employee("Gerges",57,"IT",True)
+
+student1 =student("Bishoy",22,3.8)
+
+#print 24 57
+print(employee1.age,employee2.age)
+#print Bishoy 22 3.8 
+print(student1.name,student1.age,student1.gpa)
+
+#class function
+#print false
+print(employee1.is_manager())
+#print true
+print(employee2.is_manager())
+
+#class inheritence Tut 33
