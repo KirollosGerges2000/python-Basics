@@ -399,3 +399,19 @@ print(employee1.is_manager())
 print(employee2.is_manager())
 
 #class inheritence Tut 33
+from Doctor import Doctor
+from Family_doctor import Family_doctor
+
+doctor1=Doctor()
+doctor2=Family_doctor()
+
+#print I work with families
+doctor2.what_specialization()
+
+#print I studied 7 years
+doctor1.studied_years()
+#print I work in a hospital
+doctor1.works_where()
+
+#python Pong Game 
+#in PingPong File
