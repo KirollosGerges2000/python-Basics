@@ -7,7 +7,6 @@ age = "34"
 num =23
 number=-43
 
-#Boolen
 is_male=True
 
 #print function
@@ -436,8 +435,17 @@ doctor1.works_where()
 #According to interface and Implementation.
 #by using class method.
 
+#Always use inheritence by using base_classor super class
 
+#polymorphism متعدد الأشكال"use single action with multiple 
+#resources"
+#by method overriding + overloading(multiple
+#functions"methods" in the same class with 
+#different parameters)
 
+#Practical
+#get data type 
+x=type(sum)
 
 
 
