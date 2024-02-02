@@ -433,3 +433,11 @@ doctor1.works_where()
 
 #Abstraction
 #Input and outputs according to user.
+#According to interface and Implementation.
+#by using class method.
+
+
+
+
+
+
