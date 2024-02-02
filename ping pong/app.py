@@ -9,6 +9,8 @@ number=-43
 
 is_male=True
 
+
+
 #print function
 print("welcome\" ")
 
@@ -444,8 +446,66 @@ doctor1.works_where()
 #different parameters)
 
 #Practical
-#get data type 
+#get data type but must the same object
 x=type(sum)
+#get id of the sum
+x1=id(sum)
+
+#for private and public classes
+
+#private class
+class Employee:
+    def __init__(self,name,age,depertment,is_manager):
+        self.__name=name
+        self.__age=age
+        self.__depertment=depertment
+        self.__manager=is_manager
+
+#public class
+class Employee:
+    def __init__(self,name,age,depertment,is_manager):
+        self.name=name
+        self.age=age
+        self.depertment=depertment
+        self.manager=is_manager
+
+from datetime import date
+#Class method to change the behavior of classes
+@classmethod
+def initFromBirthYear(cls,name,birthYear):
+    return cls(name,date.today().year - birthYear)
+
+
+student33=student.initFromBirthYear("Kirollos",2000)
+#print my name is Kirollos and my age is 24.
+student33.describe() 
+
+#print dirctory of student33 __init__ 
+#__dir__  __doc__
+print(dir(student33))
+
+
+#static methods "Helper method or utality"
+@staticmethod
+def add22(x):
+    return x+10
+
+#print True
+print(isinstance(student33,student))
+
+
+#Dunder Functions
+
+
+
+
+
+
+
+
+
+
+
 
 
 
