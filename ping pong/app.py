@@ -415,3 +415,21 @@ doctor1.works_where()
 
 #python Pong Game 
 #in PingPong File
+
+
+#object oriented programming "OOP"
+#1)Encapsulation "independent function"
+#2)polymorphism
+#3)Abstraction
+#4)Inheritence
+
+#object is an instance of class.
+#class is  an templete of object. 
+#"contains Functions by getters"return"
+# and setters methods"No return "
+
+#what is encapsulation? كبسولة 
+#as Blackbox that help us in testing
+
+#Abstraction
+#Input and outputs according to user.

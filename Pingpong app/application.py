@@ -36,8 +36,8 @@ ball.shape("circle") #set the shape of the object
 ball.color("white") #set the color of the shape 
 ball.penup() #stops object from drawing lines 
 ball.goto(0,0)#set position of the object
-ball.dx = 0.2 #rate of motion 0.2 pixel on screen
-ball.dy = 0.2 #rate of motion 0.2 pixel on screen
+ball.dx = 0.6 #rate of motion 0.2 pixel on screen
+ball.dy = 0.6 #rate of motion 0.2 pixel on screen
 
 #score 
 score1=0
@@ -49,6 +49,10 @@ score.penup()
 score.hideturtle()
 score.goto(0,260)
 score.write("Player_1: 0              Player_2: 0",align="center",font="Arial,36,normal")
+
+
+
+
 
 #functions
 def madrab1_up():
@@ -95,6 +99,8 @@ while True:
     if ball.ycor()>290: #if ball is at top border 
              ball.sety(290) #set y coordiinate +290
              ball.dy *=-1  #reverse direction , making +0.2--->-0.2
+            
+           
 
     if ball.ycor()<-290:#if ball is at bottom border 
              ball.sety(-290) #set y coordiinate -290
